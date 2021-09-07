@@ -1,0 +1,14 @@
+package com.example.lambdaspringboot.service.vo;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+public class HelloWorld {
+    private String response;
+}
